@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:keyboard_actions/external/keyboard_avoider/bottom_area_avoider.dart';
-import 'package:keyboard_actions/external/platform_check/platform_check.dart';
+import 'package:keyboard_actions_plus/external/keyboard_avoider/bottom_area_avoider.dart';
+import 'package:keyboard_actions_plus/external/platform_check/platform_check.dart';
 
 import 'keyboard_actions_config.dart';
 import 'keyboard_actions_item.dart';
@@ -96,7 +96,7 @@ class KeyboardActions extends StatefulWidget {
       this.autoScroll = true,
       this.isDialog = false,
       @Deprecated('Use tapOutsideBehavior instead.')
-          this.tapOutsideToDismiss = false,
+      this.tapOutsideToDismiss = false,
       this.tapOutsideBehavior = TapOutsideBehavior.none,
       required this.config,
       this.overscroll = 12.0,
